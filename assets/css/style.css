@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;;
+}
+li,a,button{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display:flex;
+    justify-content: flex-end;
+    /*background-color: rgb(72, 139, 139);*/
+    background-color:transparent;
+    padding:10px 10%;
+    align-items: center;
+    color:white;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+.logo{
+    margin-right: auto;
+}
+nav ul li{
+    display:inline-block;
+    padding: 0px 40px;
+}
+nav ul li a:hover{
+    color:white;
+    transition: all 0.3s ease 0s;
+}
+header button{
+    padding:10px 25px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: wheat;
+
+    
+}
+header button:hover{
+    background-color: white;
+}
+.wrapper {
+    background-image: url('https://cdn.wallpapersafari.com/29/1/0gWBzS.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.content{
+    display:flex;
+    padding:180px 10%;
+    justify-content:space-between;
+    color:white
+}
+.maincontent{
+    /* justify-content: center; */
+    margin-top: 50px;
+}
+.maincontent button{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    width: 100px;
+    height:40px;
+    border:none;
+}
